@@ -1274,6 +1274,7 @@
         , $tip = this.tip()
         , e = $.Event('hide')
 
+      console.log(this.$element.trigger)
       this.$element.trigger(e)
       if (e.isDefaultPrevented()) return
 
